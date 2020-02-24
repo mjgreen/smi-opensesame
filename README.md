@@ -16,7 +16,8 @@ If you find that the screen settings seem to be wrong for your particular Experi
 # What does this repo do?
 Change a baked-in default in OpenSesame's SMI library from "expects a single IP address" to "expects 2 IP addresses". 
 
-The source code lives at https://github.com/esdalmaijer/PyGaze/blob/master/pygaze/\_eyetracker/libsmi.py
+The source code lives at:
+    esdalmaijer/PyGaze/blob/master/pygaze/\_eyetracker/libsmi.py
 
 The path to installed libsmi.py is "site-packages/pygaze/\_eyetracker/libsmi.py"
 
