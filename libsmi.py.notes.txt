@@ -1,9 +1,0 @@
-Change a baked-in default in OpenSesame's SMI library from "expects a single IP address" to "expects 2 IP addresses". 
-
-The source code lives at https://github.com/esdalmaijer/PyGaze/blob/master/pygaze/_eyetracker/libsmi.py
-
-The path to installed libsmi.py is .../site-packages/pygaze/_eyetracker/libsmi.py
-
-Where are my changes?
-- 2-PC setup:         see # connect to iViewX      c. line 210 (also in the __init__ args c. line 127)
-- Write an .idf file: see # output file properties c. line 167
