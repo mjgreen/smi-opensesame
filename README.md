@@ -12,3 +12,14 @@ Firstly, there is a difference between Windows's screen numbering, which uses nu
 To revert the screen settings to the room's default, do the following: from the laptop right click the desktop and choose "screen resolution". From "screen resolution" choose "extend this display". Then click on the picture of the SMI screen and choose "use this display as primary". Then Experiment Center projects (which at BU typically assume that the SMI is Windows's primary screen rather than that the inbuilt laptop is Windows' primary screen) will use the SMI screen as screen 1.
 
 If you find that the screen settings seem to be wrong for your particular Experiment Center project (i.e., that the calibration appears on the laptop) then you have two ways to fix it. Way 1 is to toggle 1 and 2 on the bottom bar of the Experiment Center interface, so that you select 'the other one' - ie.e., whichever one it is not currently set to. Way 2 is to change Windows's primary screen to be 'the other one' - i.e., whichever screen it is not currently set to.
+
+# What does this repo do?
+Change a baked-in default in OpenSesame's SMI library from "expects a single IP address" to "expects 2 IP addresses". 
+
+The source code lives at https://github.com/esdalmaijer/PyGaze/blob/master/pygaze/\_eyetracker/libsmi.py
+
+The path to installed libsmi.py is "site-packages/pygaze/\_eyetracker/libsmi.py"
+
+Where are my changes?
+- 2-PC setup:         see # connect to iViewX      c. line 210 (also in the \_\_init__ args c. line 127)
+- Write an .idf file: see # output file properties c. line 167
