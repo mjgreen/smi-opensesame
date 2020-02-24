@@ -4,7 +4,6 @@ The source code lives at https://github.com/esdalmaijer/PyGaze/blob/master/pygaz
 
 The path to installed libsmi.py is .../site-packages/pygaze/_eyetracker/libsmi.py
 
-See lines 208/9 for two IP address setup. Remember to change the default variable "ip"'s instantiation value too in __init__ just in case that mattered.
-
-Other changes done in Feb 2020: allow an .idf file to be written (line 167-ish in "output file properties"))
-
+Where are my changes?
+- 2-PC setup:         see # connect to iViewX      c. line 210 (also in the __init__ args c. line 127)
+- Write an .idf file: see # output file properties c. line 167
