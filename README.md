@@ -24,3 +24,7 @@ The path to installed libsmi.py is "site-packages/pygaze/\_eyetracker/libsmi.py"
 Where are my changes?
 - 2-PC setup:         see # connect to iViewX      c. line 210 (also in the \_\_init__ args c. line 127)
 - Write an .idf file: see # output file properties c. line 167
+
+# What settings are needed in the \*.osexp?
+
+Psychopy backend (?)
