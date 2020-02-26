@@ -1,8 +1,8 @@
-# smi-opensesame
+1. smi-opensesame
 
 How to set up the SMI RED in P103i to use opensesame as the stimulus program running on a separate PC.
 
-## What does this repo do?
+  1. What does this repo do?
 
 Change a baked-in default in OpenSesame's SMI library from "expects a single IP address" to "expects 2 IP addresses". 
 
